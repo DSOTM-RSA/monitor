@@ -1,0 +1,23 @@
+---
+title: "get_websources"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+setwd("C:/Users/eoedd/Desktop/locstore/projects/monitor/processing/")
+```
+
+```{bash}
+cd "C:\Users\eoedd\Desktop\locstore\projects\monitor"
+
+curl -O https://impfdashboard.de/static/data/germany_vaccinations_timeseries_v2.tsv 
+```
+
+
+
+
+
+
+

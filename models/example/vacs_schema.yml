@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: covid
+    description: A table of vaccinations administered
+    tables:
+      - name: vacs
+      
+models:
+  - name: stg_vacs
